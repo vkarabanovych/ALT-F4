@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+a {
+    text-decoration: none;
+    color: black;
+}
+.container {
+    width: 80%;
+    margin-left: 10%;
+}
+header {
+    display: flex;
+}
+.logo {
+   display: flex;
+       margin-top: 1%;
+}
+.navbar {
+    display: flex;
+    margin-left: 30%;
+}
+.navbar-text {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4.5%;
+    margin-left: 4%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+}
+.logo-img {
+    width: 120px;
+}
+.navbar-text{
+    transition: 0.7s; 
+    text-align: center; 
+}
+.navbar-text:hover {
+transform: scale(1.2);
+}
+.btn-project-lorum {
+    cursor: pointer;
+    width: 10%;
+    height: 7.5%;
+    position: absolute;
+    background-color: white;
+    border:none ;
+    margin-top: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.btn-project-lorum-text {
+    margin-top: 5%;
+    margin-left: 7%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.img-project-lorum-clss {
+    width: 950px;
+    height: 830px;
+}
+.div-btn-project-lorum {
+    display: flex;
+    align-items: flex-end;
+}
+.btn-project-lorum-svg {
+margin-top: 5%;
+margin-right: 7%;
+}
+.block-PROJECT-LORUM {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2%;
+}
+.left-text-PROJECT-LORUM {
+    color: var(--gray-4, #BDBDBD);
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 64px;
+    margin-left: -62.5%;
+    margin-top: ;
+}
+.left-text-two {
+    color: var(--gray-1, #333);
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+}
+.left-text-svg {
+    transform: rotate(-180deg)
+}
+.div-left-text-line {
+    width: 50px;
+   display: flex; 
+   justify-content: space-around;
+}
+.left-text-line {
+    height: 17px;
+    transform: rotate(20deg)
+}
