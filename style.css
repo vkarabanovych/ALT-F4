@@ -60,7 +60,7 @@ transform: scale(1.2);
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
-.img-project-lorum-clss {
+.swiper-slide {
     width: 950px;
     height: 830px;
 }
@@ -71,6 +71,9 @@ transform: scale(1.2);
 .btn-project-lorum-svg {
 margin-top: 5%;
 margin-right: 7%;
+}
+.left-text {
+    margin-left: -50%;
 }
 .block-PROJECT-LORUM {
     display: flex;
@@ -85,7 +88,6 @@ margin-right: 7%;
     font-weight: 300;
     line-height: 64px;
     margin-left: -62.5%;
-    margin-top: ;
 }
 .left-text-two {
     color: var(--gray-1, #333);
@@ -95,15 +97,39 @@ margin-right: 7%;
     font-weight: 700;
     line-height: 64px;
 }
-.left-text-svg {
+.swiper-button-prev {
     transform: rotate(-180deg)
 }
 .div-left-text-line {
-    width: 50px;
-   display: flex; 
+    width: 500px;
+   display: flex;
+   margin-top: -25%; 
    justify-content: space-around;
+   margin-left:-62%;
 }
 .left-text-line {
     height: 17px;
-    transform: rotate(20deg)
+    transform: rotate(20deg);
 }
+.left-text-gg {
+    margin-top: 25%;
+}
+.swiper {
+    margin-top: -45%;
+}
+.div-left-text-aroow{
+    margin-top: 27%;
+    margin-left: -8%;
+}
+.left-text-svg {
+    cursor: pointer;
+}
+.swiper {
+    width: 950px;
+    height: 830px;
+  }
+  .left-text-PROJECT-LORUM-ne-gg {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+
+  }
